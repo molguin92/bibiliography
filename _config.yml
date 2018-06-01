@@ -28,17 +28,17 @@ sass:
   style: compressed # expanded
 
 # Author settings
-author:
-  name     : "Manuel Olguín"
-  job      : "PhD student @ KTH Royal Institute of Technology"
-  bio      : ""
-  thumb    : /images/author.jpg
-  email    : molguin@kth.se
-  url      : http://molguin92.github.io
-  github   : http://github.com/molguin92
-  twitter  : http://twitter.com/molguin92
-  # facebook : https://www.facebook.com/heiswayi.nrird
-  linkedin : http://linkedin.com/in/molguin92
+# author:
+#   name     : "Manuel Olguín"
+#   job      : "PhD student @ KTH Royal Institute of Technology"
+#   bio      : ""
+#   thumb    : /images/author.jpg
+#   email    : molguin@kth.se
+#   url      : http://molguin92.github.io
+#   github   : http://github.com/molguin92
+#   twitter  : http://twitter.com/molguin92
+#   # facebook : https://www.facebook.com/heiswayi.nrird
+#   linkedin : http://linkedin.com/in/molguin92
 
 # social settings
 og_locale: "en_US"
