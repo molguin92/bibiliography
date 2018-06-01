@@ -28,6 +28,8 @@ sass:
   style: compressed # expanded
 
 authors: !include _authors.yml
+copyright: 
+  name: Manuel Olguín
 
 # Author settings
 # author:
