@@ -7,7 +7,7 @@ before_script:
 
 script: ./scripts/cibuild
 after_success: 
-  -./scripts/push_to_github
+  - ./scripts/push_to_github
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
