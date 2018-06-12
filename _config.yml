@@ -59,6 +59,16 @@ twitter_site: "@molguin92"
 plugins:
   - bourbon
   - jekyll-paginate
+  - jekyll-scholar
+
+# scholar config
+scholar:
+  style: ieee
+  locale: en
+  source: ./_bib
+  bibliography: bibliography.bib
+  sort_by: [year, month, day]
+  order: ascending
 
 # navbar pages
 navbar:
