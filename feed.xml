@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>biblio</title>
+    <description></description>
+    <link>http://molguin92.github.io/bibliography/bibliography/</link>
+    <atom:link href="http://molguin92.github.io/bibliography/bibliography/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Jun 2018 14:00:02 +0200</pubDate>
+    <lastBuildDate>Tue, 12 Jun 2018 14:00:02 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Workload synthesis: Generating benchmark workloads from statistical execution profile</title>
+        <description>&lt;p&gt;Article:&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&quot;Kim2014WorkloadSynthesis&quot;&gt;K. Kim, C. Lee, J. H. Jung, and W. W. Ro, “Workload synthesis: Generating benchmark workloads from statistical execution profile,” in &lt;i&gt;2014 IEEE International Symposium on Workload Characterization (IISWC)&lt;/i&gt;, 2014, pp. 120–129.&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://molguin92.github.io/bibliography/bibliography/2018/workload-synthesis-generating-benchmark-workloads-from-statistical-execution-profile/</link>
+        <guid isPermaLink="true">http://molguin92.github.io/bibliography/bibliography/2018/workload-synthesis-generating-benchmark-workloads-from-statistical-execution-profile/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
