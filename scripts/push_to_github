@@ -7,6 +7,7 @@ cp _site /tmp/_site
 
 git remote add origin https://${GH_TOKEN}@github.com/molguin92/bibliography.git > /dev/null 2>&1
 git checkout master
+git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
 git fetch --all
 git checkout -b gh-pages --track origin/gh-pages
 git pull
