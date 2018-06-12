@@ -5,6 +5,8 @@ git config --global user.name "Travis CI"
 
 mv _site /tmp/_site
 
+git checkout master
+git fetch --all
 git checkout gh-pages
 git pull
 
