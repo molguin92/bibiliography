@@ -8,11 +8,11 @@ cp _site /tmp/_site
 git remote add origin https://${GH_TOKEN}@github.com/molguin92/bibliography.git > /dev/null 2>&1
 git checkout master
 git fetch --all
-git checkout gh-pages origin/gh-pages
+git checkout -b gh-pages --track origin/gh-pages
 git pull
 
 rsync -a -v /tmp/_site/ ./
 git add .
 git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
-git push -u origin-pages gh-pages
+git push -u origin gh-pages
