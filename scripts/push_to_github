@@ -6,6 +6,7 @@ git config --global user.name "Travis CI"
 mv _site /tmp/_site
 
 git checkout -b gh-pages
+git pull
 
 rsync -a -v /tmp/_site/ ./
 git add .
