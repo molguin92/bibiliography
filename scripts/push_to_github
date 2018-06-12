@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+git config --global user.email "travis@travis-ci.org"
+git config --global user.name "Travis CI"
+
+mv _site /tmp/_site
+
+git checkout -b gh-pages
+
+mv /tmp/_site/* ./
+git add .
+git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
+
+git remote add origin-pages https://${GH_TOKEN}@github.com/molguin92/bibliography.git > /dev/null 2>&1
+git push -u origin-pages gh-pages

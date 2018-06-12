@@ -1,19 +1,18 @@
 language: ruby
 rvm:
   - 2.4.1
-
 before_script:
   - chmod +x ./scripts/cibuild
+  - chmod +x ./scripts/push_to_github
 
 script: ./scripts/cibuild
-
+after_success: 
+  -./scripts/push_to_github
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - secure: dFT6w/95DVs1EcSfQ+dO735QGN8k/hjmQQcIy/HorvOpVTEVMJLJWzmBdF1rXhexKKUrueu4r10BTSjwsCPmN/CRVIquewt+R3F/usl0iNkXZaICll+9Jh8uG+r1gmI8ysrhugc/G6ZOhJgIuZFffgS85+ZeRYE3XtwGG0YyBGeQEm40+nxyC0fJjXpMJA61HLoYeYQj1oHlwBAuSXlic6qBRR5sZ8r8hRptoU5iBHDg/D6iC6Zd1rYBhDLylKQgDkvHZM6v0u4t+yqkvvB9JieJuseylrMZnlMZeUcz7rXouvrVbhB1J6Wld3DQxC078BYGrLr6fWzXeLunYxg93/o864Sfco/TvRDeiZzGFsbKsP2HkSwptjVORe74YvjS4V1zMUxOwg8WIAolFqRG+gwQ/NknKaemqXZ8xoNGrDKQ1+1CDY/EW4xPYhaq9CA9So6DLkvKmG2rHMbwVmsewmkaPyQXY2WCOI4N6lV8OLlL4WXpJOGukG1bSRJVE+vlXTwLH/neT3R7OEYrQUno7Wh29cUCzmj0fa22YAhdnjilm+xy3HBB0XvLjhe3x0H7peZcKTuTEMa0v+KFwTYYaGVW1g5ebv3Lg4AZkGQO16HK4/8fYmaPGw/xSK9avvgmzrOItCy3ZneE9czoehTi15iqW2VzGq9lNmUPtnbpyAc=
 sudo: false
-
 cache: bundler
-
 notifications:
   email: false
