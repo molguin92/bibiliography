@@ -27,7 +27,14 @@ sass:
   sass_dir: assets/scss
   style: compressed # expanded
 
-authors: !include _authors.yml
+authors:
+  - name: Manuel Olguín
+    affiliation: KTH Royal Institute of Technology
+    website: http://molguin92.github.io
+  - name: Junjue Wang
+    affiliation: Carnegie Mellon University
+    website: https://junjuew.github.io/
+
 copyright: 
   name: Manuel Olguín
 
@@ -49,7 +56,7 @@ og_locale: "en_US"
 twitter_card: "summary_large_image"
 twitter_site: "@molguin92"
 
-gems:
+plugins:
   - bourbon
   - jekyll-paginate
 

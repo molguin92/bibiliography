@@ -1,13 +1,11 @@
 <section class="intro">
   <div class="container">
-<!--     <p class="lead">Hi, I'm <strong class="author-name" itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>. <br>
-    {{ site.author.bio }}</p> -->
     <p class="lead">Each entry corresponds to a paper, including a BibTeX entry along with a brief summary and links to the original documents.<br>
 
       Maintained by:
       <ul>
         {% for author in site.authors %}
-        <li>{{ author.name }}, {{ author.affiliation }}</li>
+        <li><a href="{{ author.website }}">{{ author.name }}</a> ({{ author.affiliation }})</li>
         {% endfor %}
       </ul>
     </p>
