@@ -7,7 +7,7 @@ mv _site /tmp/_site
 
 git checkout master
 git fetch --all
-git checkout gh-pages
+git checkout gh-pages origin/gh-pages
 git pull
 
 rsync -a -v /tmp/_site/ ./
