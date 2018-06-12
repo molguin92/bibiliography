@@ -7,7 +7,7 @@ mv _site /tmp/_site
 
 git checkout -b gh-pages
 
-mv /tmp/_site/* ./
+rsync -a -v /tmp/_site/ ./
 git add .
 git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
