@@ -65,9 +65,11 @@ plugins:
   - bourbon
   - jekyll-paginate
   - jekyll-scholar
+  - jekyll-figure
 
 # scholar config
 scholar:
+  bibliography_template: bib
   style: ieee
   locale: en
   source: ./_bib
