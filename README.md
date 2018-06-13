@@ -1,15 +1,12 @@
-<!--
-# Thinkspace v2.1
- 
-Thinkspace is just another minimalist Jekyll theme which is best suit for technical writing, but not limited to. Good for personal blog type too or project-based blog. Disqus comment is included.
+[![Build Status](https://travis-ci.org/molguin92/bibliography.svg?branch=master)](https://travis-ci.org/molguin92/bibliography)
 
-[**Live Demo**](http://heiswayi.github.io/thinkspace/)
+# Bibliography
 
-### Screenshot
+This blog is meant to be a support tool for keeping track of literature in the fields of [Edge Computing](https://en.wikipedia.org/wiki/Edge_computing), [Mobile and Wearable Cognitive Assistance](http://elijah.cs.cmu.edu/cognitive-assistance-example.html) and the workload characterization of these systems.
 
-![Thinkspace Screenshot](http://i.imgur.com/IMQDB9e.png)
+Since this page uses some Jekyll plugins not supported by GitHub, it uses an automated deployment process driven by Travis CI to automatically build and publish the page whenever push to master (that builds successfully) is made.
 
--->
+To contribute, and be able to test the page locally before pushing, you'll need to set up a development enviroment for Ruby and Jekyll. [See here for details.](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
 ### License
 
