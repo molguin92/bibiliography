@@ -149,6 +149,7 @@ GEM
       jekyll (~> 3.0)
     jekyll-feed (0.9.3)
       jekyll (~> 3.3)
+    jekyll-figure (0.0.2)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-github-metadata (2.9.4)
@@ -311,6 +312,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
+  jekyll-figure
   jekyll-scholar
   travis
   unicode
