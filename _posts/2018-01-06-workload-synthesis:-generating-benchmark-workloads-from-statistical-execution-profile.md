@@ -22,7 +22,7 @@ In conjunction with the previously mentioned statistical profile, these kernel f
 {% endfigure %}
 
 
-The approach has some limitations and challenges though. To begin with, the authors were only able to apply it to single-threaded applications due to limitations on the ARMv7 chipset they were working with (although they claim to be able to extend it to multi-threaded applications running on newer Intel processors). Additionally, the *kernel functions* they present are not completely orthogonal (i.e. their effects are not isolated to single performance counter events, but often modify additional). This leads to a complicated synthesis algorithm and a decrease in the accuracy of the generated workload compared to the real one.
+The approach has some limitations and challenges though. To begin with, the authors were only able to apply it to single-threaded applications due to limitations on the ARMv7 chipset they were working with (although they claim to be able to extend it to multi-threaded applications running on newer Intel processors). Additionally, the *kernel functions* they present are not completely orthogonal (i.e. their effects are not isolated to single performance counter events, but often modify additional ones). This leads to a complicated synthesis algorithm and a decrease in the accuracy of the generated workload compared to the real one.
 
 All in all, this article presents an interesting and straightforward methodology for workload sythesis, that might be applicable to wearable cognitive assistance.
 
