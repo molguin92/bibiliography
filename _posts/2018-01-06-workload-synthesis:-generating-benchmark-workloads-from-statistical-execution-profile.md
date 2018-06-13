@@ -9,7 +9,7 @@ title: "Workload synthesis: Generating benchmark workloads from statistical exec
 Their methodology is based on the use of the use of hardware performance counters present in most modern CPU architectures. They use these counters to sample key workload metrics of the target application under normal use, such as the total number of CPU instructions, memory instructions, branch instructions, etc.
 
 {% figure caption:"Recorded performance counter metrics." | class:"figure" %}
-![Recorded metrics]({{ "/assets/images/workloadsynthesis_metrics.gif" | absolute_url }})
+![Recorded metrics]({{ site.baseurl }}/assets/images/workloadsynthesis_metrics.gif)
 {% endfigure %}
 
 Using these sampled values, a statistical representation of the workload is then calculated.
