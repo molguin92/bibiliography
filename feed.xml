@@ -5,8 +5,8 @@
     <description></description>
     <link>http://molguin92.github.io/bibliography/bibliography/</link>
     <atom:link href="http://molguin92.github.io/bibliography/bibliography/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jun 2018 13:42:48 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Jun 2018 13:42:48 +0000</lastBuildDate>
+    <pubDate>Wed, 13 Jun 2018 13:57:04 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Jun 2018 13:57:04 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -34,7 +34,7 @@ In conjunction with the previously mentioned statistical profile, these kernel f
   &lt;figcaption&gt;Results: real vs. synthetic workloads.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The approach has some limitations and challenges though. To begin with, the authors were only able to apply it to single-threaded applications due to limitations on the ARMv7 chipset they were working with (although they claim to be able to extend it to multi-threaded applications running on newer Intel processors). Additionally, the &lt;em&gt;kernel functions&lt;/em&gt; they present are not completely orthogonal (i.e. their effects are not isolated to single performance counter events, but often modify additional). This leads to a complicated synthesis algorithm and a decrease in the accuracy of the generated workload compared to the real one.&lt;/p&gt;
+&lt;p&gt;The approach has some limitations and challenges though. To begin with, the authors were only able to apply it to single-threaded applications due to limitations on the ARMv7 chipset they were working with (although they claim to be able to extend it to multi-threaded applications running on newer Intel processors). Additionally, the &lt;em&gt;kernel functions&lt;/em&gt; they present are not completely orthogonal (i.e. their effects are not isolated to single performance counter events, but often modify additional ones). This leads to a complicated synthesis algorithm and a decrease in the accuracy of the generated workload compared to the real one.&lt;/p&gt;
 
 &lt;p&gt;All in all, this article presents an interesting and straightforward methodology for workload sythesis, that might be applicable to wearable cognitive assistance.&lt;/p&gt;
 
