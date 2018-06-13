@@ -5,8 +5,8 @@
     <description></description>
     <link>http://molguin92.github.io/bibliography/bibliography/</link>
     <atom:link href="http://molguin92.github.io/bibliography/bibliography/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jun 2018 12:00:03 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Jun 2018 12:00:03 +0000</lastBuildDate>
+    <pubDate>Wed, 13 Jun 2018 13:29:27 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Jun 2018 13:29:27 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -20,10 +20,23 @@
 &lt;figure class=&quot;figure&quot;&gt;
   &lt;img src=&quot;/bibliography/assets/images/workloadsynthesis_metrics.gif&quot; alt=&quot;Recorded metrics&quot; /&gt;
   
-  &lt;figcaption&gt;Recorded performance counter metrics.&lt;/figcaption&gt;
+  &lt;figcaption&gt;Recorded performance counter events.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Using these sampled values, a statistical representation of the workload is then calculated.&lt;/p&gt;
+&lt;p&gt;From these sampled values, a statistical representation of the workload is then generated, describing the probability distribution functions for each event count in each sampling interval.&lt;/p&gt;
+
+&lt;p&gt;The authors then introduce the notion of “&lt;em&gt;kernel functions&lt;/em&gt;”: brief sections of code (in this case, written in plain C) which generate &lt;em&gt;empty&lt;/em&gt; load - i.e. these functions have no purpose other than this - for specific counter events . For instance, they present functions for incrementing the ALU event count, the branch miss count, and so on. 
+In conjunction with the previously mentioned statistical profile, these kernel functions allow the researchers to synthesize a &lt;em&gt;fake&lt;/em&gt; workload which has an extremely similar profile as the &lt;em&gt;real&lt;/em&gt; one.&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;/bibliography/assets/images/workloadsynthesis_results.gif&quot; alt=&quot;Results&quot; /&gt;
+  
+  &lt;figcaption&gt;Results: real vs. synthetic workloads.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The approach has some limitations and challenges though. To begin with, the authors were only able to apply it to single-threaded applications due to limitations on the ARMv7 chipset they were working with (although they claim to be able to extend it to multi-threaded applications running on newer Intel processors). Additionally, the &lt;em&gt;kernel functions&lt;/em&gt; they present are not completely orthogonal (i.e. their effects are not isolated to single performance counter events, but often modify additional). This leads to a complicated synthesis algorithm and a decrease in the accuracy of the generated workload compared to the real one.&lt;/p&gt;
+
+&lt;p&gt;All in all, this article presents an interesting and straightforward methodology for workload sythesis, that might be applicable to wearable cognitive assistance.&lt;/p&gt;
 
 &lt;h3 id=&quot;references&quot;&gt;References:&lt;/h3&gt;
 
