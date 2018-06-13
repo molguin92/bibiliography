@@ -29,10 +29,15 @@ sass:
 
 authors:
   - name: Manuel Olguín
-    affiliation: KTH Royal Institute of Technology
+    affiliation: Dept. of Information Science and Engineering, KTH Royal Institute of Technology
+    city: Stockholm
+    country: Sweden
     website: http://molguin92.github.io/
+
   - name: Junjue Wang
-    affiliation: Carnegie Mellon University
+    affiliation: School of Computer Science, Carnegie Mellon University
+    city: Pittsburgh, PA
+    country: United States of America
     website: https://junjuew.github.io/
 
 copyright: 
