@@ -5,15 +5,32 @@
     <description></description>
     <link>http://molguin92.github.io/bibliography/bibliography/</link>
     <atom:link href="http://molguin92.github.io/bibliography/bibliography/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jun 2018 09:11:35 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Jun 2018 09:11:35 +0000</lastBuildDate>
+    <pubDate>Wed, 13 Jun 2018 10:38:48 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Jun 2018 10:38:48 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>Workload synthesis: Generating benchmark workloads from statistical execution profile</title>
-        <description>&lt;p&gt;Article:&lt;/p&gt;
+        <description>&lt;h3 id=&quot;summary&quot;&gt;Summary:&lt;/h3&gt;
 
-&lt;p&gt;&lt;span id=&quot;Kim2014WorkloadSynthesis&quot;&gt;K. Kim, C. Lee, J. H. Jung, and W. W. Ro, “Workload synthesis: Generating benchmark workloads from statistical execution profile,” in &lt;i&gt;2014 IEEE International Symposium on Workload Characterization (IISWC)&lt;/i&gt;, 2014, pp. 120–129.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#Kim2014WorkloadSynthesis&quot;&gt;[1]&lt;/a&gt; presents an approach to workload synthesis for arbitrary applications through the generation of statistically representative models. The authors focus on interactive and non-deterministic applications such as mobile games to demonstrate the flexibility and robusteness of their methodology.&lt;/p&gt;
+
+&lt;p&gt;Their methodology is based on the use of the use of hardware performance counters present in most modern CPU architectures. They use these counters to sample key workload metrics of the target application under normal use, such as the total number of CPU instructions, memory instructions, branch instructions, etc.&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://molguin92.github.io/bibliography/bibliography/assets/images/workloadsynthesis_metrics.gif&quot; alt=&quot;Recorded metrics&quot; /&gt;
+  
+  &lt;figcaption&gt;Recorded performance counter metrics.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Using these sampled values, a statistical representation of the workload is then calculated.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References:&lt;/h3&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Kim2014WorkloadSynthesis&quot;&gt;[1]K. Kim, C. Lee, J. H. Jung, and W. W. Ro, “Workload synthesis: Generating benchmark workloads from statistical execution profile,” in &lt;i&gt;2014 IEEE International Symposium on Workload Characterization (IISWC)&lt;/i&gt;, 2014, pp. 120–129.&lt;/span&gt;
+
+&lt;p&gt;DOI: &lt;a href=&quot;http://dx.doi.org/10.1109/IISWC.2014.6983051&quot;&gt;10.1109/IISWC.2014.6983051&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
         <link>http://molguin92.github.io/bibliography/bibliography/2018/workload-synthesis-generating-benchmark-workloads-from-statistical-execution-profile/</link>
