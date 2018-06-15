@@ -9,6 +9,9 @@ layout: default
   </header>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+    <br>
+    <h3 class="post-title">References</h3>
+    {% bibliography --cited %}
     <!-- {% include post-share.html %} -->
   </div>
 </article>
