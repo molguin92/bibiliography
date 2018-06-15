@@ -26,6 +26,6 @@ The approach has some limitations and challenges though. To begin with, the auth
 
 All in all, this article presents an interesting and straightforward methodology for workload sythesis, that might be applicable to wearable cognitive assistance.
 
-### References:
+### Reference:
 
 {% bibliography --cited %}
