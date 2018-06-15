@@ -5,9 +5,25 @@
     <description></description>
     <link>http://molguin92.github.io/bibliography/bibliography/</link>
     <atom:link href="http://molguin92.github.io/bibliography/bibliography/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jun 2018 13:57:04 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Jun 2018 13:57:04 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Jun 2018 15:15:28 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Jun 2018 15:15:28 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Thread-level synthetic benchmarks for multicore systems</title>
+        <description>&lt;p&gt;&lt;a href=&quot;#Sen2015ThreadLevelSyntheticBenchmarks&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Sen2015ThreadLevelSyntheticBenchmarks&quot;&gt;[1]A. Sen and E. Deniz, “Thread-level synthetic benchmarks for multicore systems,” &lt;i&gt;Microprocessors and Microsystems&lt;/i&gt;, vol. 39, no. 7, pp. 471–479, 2015.&lt;/span&gt;
+&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+        <link>http://molguin92.github.io/bibliography/bibliography/2018/thread-level-synthetic-benchmarks-for-multicore-systems/</link>
+        <guid isPermaLink="true">http://molguin92.github.io/bibliography/bibliography/2018/thread-level-synthetic-benchmarks-for-multicore-systems/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Workload synthesis: Generating benchmark workloads from statistical execution profile</title>
@@ -38,14 +54,14 @@ In conjunction with the previously mentioned statistical profile, these kernel f
 
 &lt;p&gt;All in all, this article presents an interesting and straightforward methodology for workload sythesis, that might be applicable to wearable cognitive assistance.&lt;/p&gt;
 
-&lt;h3 id=&quot;references&quot;&gt;References:&lt;/h3&gt;
+&lt;h3 id=&quot;reference&quot;&gt;Reference:&lt;/h3&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Kim2014WorkloadSynthesis&quot;&gt;[1]K. Kim, C. Lee, J. H. Jung, and W. W. Ro, “Workload synthesis: Generating benchmark workloads from statistical execution profile,” in &lt;i&gt;2014 IEEE International Symposium on Workload Characterization (IISWC)&lt;/i&gt;, 2014, pp. 120–129.&lt;/span&gt;
 
 &lt;p&gt;DOI: &lt;a href=&quot;http://dx.doi.org/10.1109/IISWC.2014.6983051&quot;&gt;10.1109/IISWC.2014.6983051&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
         <link>http://molguin92.github.io/bibliography/bibliography/2018/workload-synthesis-generating-benchmark-workloads-from-statistical-execution-profile/</link>
         <guid isPermaLink="true">http://molguin92.github.io/bibliography/bibliography/2018/workload-synthesis-generating-benchmark-workloads-from-statistical-execution-profile/</guid>
         
