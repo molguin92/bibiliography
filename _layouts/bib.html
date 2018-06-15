@@ -4,3 +4,7 @@
 {% if entry.doi %}
 <p>DOI: <a href="http://dx.doi.org/{{ entry.doi }}">{{ entry.doi }}</a></p>
 {% endif %}
+
+<code>
+    {{ entry.bibtex }}
+</code>
